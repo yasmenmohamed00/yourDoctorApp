@@ -1,0 +1,36 @@
+$blueColor:#00B8FF;
+$softBlueColor:#88d4f1;
+$whiteColor:#fff;
+
+#home{
+    height: 100vh;
+    background-image: url('../../../src/assets/images/cover.jpeg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .home-details{
+        width: 500px;
+        height: 80%;
+        margin-left: 4rem;
+        
+        p{
+            color:$whiteColor;
+        }
+        a{
+            background-color: $blueColor;
+            color:$whiteColor
+        }
+    }
+
+}
+
+@media screen and (max-width: 850px){
+    #home{
+        .home-details{
+            width: 100%;
+            height: 80%;
+            margin-left: 1rem;
+        }
+    }
+}

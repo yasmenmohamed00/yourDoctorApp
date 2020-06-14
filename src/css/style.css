@@ -1,3 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
-body {
-  background-color: #eee; }
+html, body {
+  background-color: #eee;
+  font-size: 18px;
+  overflow-x: hidden; }
+
+h1, h2, h3 {
+  font-family: "Prompt", sans-serif;
+  white-space: nowrap;
+  letter-spacing: 0px;
+  line-height: 79px;
+  border-width: 0px;
+  font-weight: 700;
+  font-size: 5vw;
+  color: #00B8FF; }

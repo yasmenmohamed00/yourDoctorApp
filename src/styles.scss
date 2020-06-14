@@ -1,5 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
 $mainColor:#eee;
-body{
+$blueColor:#00B8FF;
+$btn-info:#17A2B8;
+$font-family:'Prompt', sans-serif;
+html,body{
     background-color: $mainColor;
+    font-size: 18px;
+    overflow-x: hidden;
+}
+h1,h2,h3{
+    font-family: $font-family;
+    white-space: nowrap;
+    letter-spacing: 0px;
+    line-height: 79px;
+    border-width: 0px;
+    font-weight: 700;
+    font-size: 5vw; 
+    color: $blueColor;
 }
