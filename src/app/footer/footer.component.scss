@@ -1,0 +1,25 @@
+$mainColor:#eee;
+$blueColor:#00B8FF;
+$whiteColor:#fff;
+$grey:rgb(136, 132, 132);
+
+#footer{
+    
+    .social-wrapper{
+        color: $whiteColor;
+        background-color: $blueColor;
+    }
+    .contact-wrapper{
+        background-color: $whiteColor;
+        button{
+            background-color: $blueColor;
+            color: $whiteColor;
+        }
+        .contact-right
+        {
+            li a{
+                color: $blueColor;
+            }
+        }
+    }
+}

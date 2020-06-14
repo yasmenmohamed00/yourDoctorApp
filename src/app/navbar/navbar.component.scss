@@ -1,0 +1,37 @@
+$blueColor:#00B8FF;
+$softBlueColor:#88d4f1;
+$whiteColor:#fff;
+
+/*.navbar{
+    top:0;
+    left: 0;
+    right: 0;
+}*/
+nav,.dropdown-menu{
+    background-color: $blueColor !important;
+}
+nav a,.navbar .navbar-toggler span{
+    color:$whiteColor !important;
+}
+.navbar .navbar-nav .dropdown-menu a:hover {
+    background-color: $softBlueColor !important;
+}
+.nav-link{
+    position: relative;
+    ::after{
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 3px;
+        margin: auto;
+        left: 8px;
+        bottom: 5px;
+        background:linear-gradient(to right,hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+        transition: 1s;
+        :hover{
+            width:47px;
+        }
+    }
+    
+}
+
