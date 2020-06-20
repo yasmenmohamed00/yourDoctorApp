@@ -11,6 +11,10 @@ import { Checkup5Component } from './checkup/checkup5/checkup5.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
+import { DiseasesComponent } from './diseases/diseases.component';
+import { DrugComponent } from './drug/drug.component';
+import {HttpClientModule}from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -22,12 +26,15 @@ import { FooterComponent } from './footer/footer.component';
     Checkup5Component,
     NavbarComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    DiseasesComponent,
+    DrugComponent,
 
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
