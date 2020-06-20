@@ -1,0 +1,20 @@
+$mainColor:#eee;
+$blueColor:#00B8FF;
+$btn-info:#17A2B8;
+$whiteColor:#fff;
+
+body{
+    height: 100%;
+}
+#drugs{
+    color: $blueColor;
+    .drug { 
+        .alphabet{
+            
+            a{
+                background-color: $whiteColor;
+                color: $blueColor;
+            }
+        }
+    }
+}
