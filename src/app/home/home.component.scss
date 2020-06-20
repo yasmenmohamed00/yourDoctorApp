@@ -1,6 +1,7 @@
 $blueColor:#00B8FF;
 $softBlueColor:#88d4f1;
 $whiteColor:#fff;
+$grayColor: #00000069;
 
 #home{
     height: 100vh;
@@ -38,3 +39,329 @@ $whiteColor:#fff;
         }
     }
 }
+
+
+
+
+.ourTips {
+    padding: 2rem;
+  }
+  
+  .ourTips .tittle {
+    text-align: center;
+  }
+  
+  .ourTips .tittle h3 {
+    font-size: 2.2rem;
+    color: $blueColor;
+  }
+  
+  .ourTips .tittle .border {
+    color: $blueColor !important;
+    width: 65px;
+    text-align: center;
+    position: relative;
+    left: 47%;
+    margin-bottom: 30px;
+  }
+  
+  .ourTips .tittle p {
+    color: $grayColor;
+    position: relative;
+    bottom: 15px;
+    padding: 0.2rem 10rem;
+  }
+  
+  @media (min-width: 320px) and (max-width: 900px) {
+    .ourTips .tittle p {
+      padding: 2px 2px;
+    }
+  }
+  
+  .ourTips .plan {
+    //  background-color: brown;
+    padding: 13px 0px;
+    overflow: hidden;
+  }
+  
+  .ourTips .contain {
+    padding: 2px 8px;
+    overflow: hidden;
+  }
+  
+  .ourTips .plan img {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    transition: transform 0.5s ease-in-out;
+    transform: scale(1.1,1.1);
+  }
+  
+  .ourTips .plan img:hover{
+  
+      transform: scale(1, 1);
+      
+  }
+  
+  .ourTips .contain .border {
+    width: 60px;
+    position: relative;
+    border: 1px solid #00b8ff !important;
+    left: 12px;
+    bottom: 10px;
+  }
+  
+  .ourTips .plan .contain h3 {
+    font-family: "Prompt", sans-serif;
+    white-space: nowrap;
+    letter-spacing: 0px;
+    line-height: 79px;
+    border-width: 0px;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #00b8ff;
+  }
+  .ourTips .plan .contain h5 {
+    font-size: 21px;
+    left: 6px;
+    position: relative;
+    font-weight: 600;
+    top: 8px;
+    padding: 22px 6px;
+  }
+  
+  .ourTips .plan .contain p {
+    font-size: 12px;
+    position: relative;
+    padding: 1px 5px;
+    bottom: 21px;
+    /* top: 5px; */
+    color: #00000096;
+  }
+  
+  .ourTips .plan .contain .seemore {
+    color: #fff;
+    border: none;
+    position: relative;
+    left: 16px;
+    padding: 6px 27px;
+    border-radius: 50px;
+    background-color: #00b8ff;
+    cursor: pointer;
+    bottom: 10px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .ourTips .plan .contain .seemore:hover {
+    background-color: $whiteColor;
+    border: 1px solid $blueColor;
+    color: $blueColor;
+  }
+  
+  .ourTips .plan .seemore i {
+    cursor: pointer;
+    position: relative;
+    font-size: 11px;
+    left: 5px;
+    bottom: 1px;
+  }
+  
+  
+  .service {
+    padding: 2rem;
+  }
+  
+  .service .tittle {
+    text-align: center;
+  }
+  
+  .service .tittle h3 {
+    font-size: 2.2rem;
+    color: $blueColor;
+  }
+  
+  .service .tittle .border {
+    color: $blueColor !important;
+    width: 65px;
+    text-align: center;
+    position: relative;
+    left: 47%;
+    margin-bottom: 30px;
+  }
+  
+  .service .tittle p {
+    color: $grayColor;
+    position: relative;
+    bottom: 15px;
+    padding: 0.2rem 10rem;
+  }
+  
+  @media (min-width: 320px) and (max-width: 900px) {
+    .service .tittle p {
+      padding: 2px 2px;
+    }
+  }
+  
+  .service .bigbox {
+  
+    position: relative;
+    box-sizing: border-box;
+    padding: 1px 15px;
+    margin-right: 35px;
+  }
+  
+  .service .bigbox i {
+  
+    padding: 22px 22px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    background-color: #00b8ff;
+    position: relative;
+    top: 75px;
+    right: 20px;
+   
+    color: #fff;
+    cursor: pointer;
+  
+  }
+  /*
+  .service .bigbox i:hover {
+  
+    background-color: $whiteColor;
+    color: $blueColor;
+    border: 5px solid $softBlueColor;
+  }
+  */
+  .service .bigbox h3  {
+  
+    position: relative;
+    left: 70px;
+    color: #00000091;
+    font-weight: 400;
+    font-size: 1.5rem;
+    bottom: 2px;
+    font-family: monospace;
+  }
+  
+  
+  .service .bigbox p {
+  
+    position: relative;
+    left: 70px;
+    color: $grayColor;
+    font-size: 16px;
+    bottom: 2px;
+  
+  }
+  
+  .about {
+    padding: 2rem;
+    margin-bottom: 2.2rem;
+  }
+  
+  .about .tittle {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .about .tittle h3 {
+    font-size: 2.2rem;
+    color: $blueColor;
+  }
+  
+  .about .tittle .border {
+    color: $blueColor !important;
+    width: 65px;
+    text-align: center;
+    position: relative;
+    left: 47%;
+    margin-bottom: 30px;
+  }
+  
+  .about .tittle p {
+    color: $grayColor;
+    position: relative;
+    bottom: 15px;
+    padding: 0.2rem 10rem;
+  }
+  
+  @media (min-width: 320px) and (max-width: 900px) {
+    .about .tittle p {
+      padding: 2px 2px;
+    }
+  }
+  
+  .about .contant h3 {
+  
+     right: 27px;
+      font-size: 21px;
+      font-family: Lato;
+      line-height: 19.8px;
+      letter-spacing: 0.2px;
+      font-weight: 700;
+      font-style: normal;
+      color: #000000;
+      position: relative;
+      top: 13px;
+  }
+  
+  .about .contant .border {
+  
+  
+    top: 25px;
+    position: relative;
+    border: 1px solid #00ffff9e !important;
+    right: 24px;
+    width: 146px;
+  }
+  
+  .about .contant p {
+  
+  
+    position: relative;
+      top: 45px;
+      right: 15px;
+      font-size: 16px;
+      color: gray;
+  }
+  
+  .about .contant .icons {
+  
+    
+    position: relative;
+    top: 50px;
+    font-size: 13px;
+  
+  }
+  
+  .about .icons li {
+  
+    font-size: 16px;
+    color: $grayColor;
+    font-weight: 500;
+  }
+  
+  
+  .about .icons i {
+  
+    color: $blueColor;
+    font-size: 18px;
+  }
+   
+  @media (min-width: 320px) and (max-width: 900px) {
+    .about .pic {
+  
+      position: relative;
+      right: 44px;
+    }
+  }
+  
+  @media (min-width: 320px) and (max-width: 900px) {
+    .about .contant h3 {
+  
+      position: relative;
+      right: 44px;
+      font-size: 18px;
+    }
+  }
